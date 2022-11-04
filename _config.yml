@@ -1,0 +1,27 @@
+title: BLOG
+author: azhar-basyiri
+subtitle: The forgotten man
+
+url: "http://en.basyiri.my.id"
+baseurl: "/"
+
+footer_only_homepage: true
+footer_url: "http://basyiri.my.id"
+footer_text: "Azhar Basyiri Hartono"
+
+favicon_location: assets/favicon.ico
+
+permalink: /:year-:month-:day-:title/
+sass:
+    style: compressed
+    sass_dir: css
+
+navbar:
+ - name: "About"
+   absolute-link: "http://basyiri.my.id/en"
+ - name: "Radio"
+   absolute-link: "http://basyiri.my.id/auditorium"
+ - name: "Fave"
+   absolute-link: "http://azhar.basyiri.my.id"
+
+future: true
